@@ -19,14 +19,14 @@ var server = http.createServer(function (request, response) {
 
     /******** 从这里开始看，上面不要看 ************/
 
-    // console.log('有个傻子发请求过来啦！路径（带查询参数）为：' + pathWithQuery);
+    console.log('有个傻子发请求过来啦！路径（带查询参数）为：' + pathWithQuery);
     // console.log('只有路径为：' + path);
-    console.log('query: ');
-    console.log(query);
-    console.log('method: ');
-    console.log(method);
-    console.log('request.headers: ');
-    console.log(request.headers);
+    //console.log('query: ');
+    //console.log(query);
+    //console.log('method: ');
+    //console.log(method);
+    //console.log('request.headers: ');
+    //console.log(request.headers);
 
 
     if (path === '/') {
@@ -39,7 +39,7 @@ var server = http.createServer(function (request, response) {
             </head>
             <script src="/y"></script>
             <body>
-                <h1>哈哈哈</h1>
+                <h1>啊哈</h1>
             </body>
         `)
         response.end()
